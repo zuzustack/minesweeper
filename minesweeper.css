@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+#board {
+  width: 245px;
+  background: rgb(220, 216, 216);
+  border: 5px solid gray;
+  height: 230px;
+  display: flex;
+  padding: 3px;
+  flex-wrap: wrap;
+}
+
+#board div {
+  margin-right: 1px;
+  width: 30px;
+  height: 30px;
+  border: 2px solid gray;
+  background-color: rgb(110, 110, 110);
+  color: white;
+  text-align: center;
+}
+
+.reveal-bom {
+  background-color: #f7f7f7 !important;
+  color: red !important;
+}
+
+.revealed {
+  background-color: #f7f7f7 !important;
+}
+
+.x1 {
+  color: blue !important;
+}
+
+.x2 {
+  color: green !important;
+}
+
+.x3 {
+  color: purple !important;
+}
+
+.x4 {
+  color: red !important;
+}
+
+.x5 {
+  color: brown !important;
+}
+
+.flagged {
+    color: rgb(233, 10, 10) !important;
+}
+
+.wrapper-board {
+  display: flex;
+  justify-content: center;
+}
+
+.active {
+    background-color: #ff4444 !important;
+    color: #f7f7f7  !important;
+}
+
+.box-action {
+    margin-top: 10px;
+  text-align: center;
+  display: block;
+  margin-inline: auto;
+}
+
+#action-board *{
+    margin-block: 0px;
+}
+
+#action-board {
+    padding-inline-end: 20px;
+    overflow-y: scroll;
+    height: 230px;
+    margin-left: 10px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background: #537bcb;
+  color: white;
+
+  cursor: pointer;
+}

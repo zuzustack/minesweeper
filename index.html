@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minesweeper</title>
+
+    <link rel="stylesheet" href="minesweeper.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="minesweeper.js"></script>
+  </head>
+  <body>
+    <center>
+      <h1>Mines Count: <span id="countMines">0</span> | <span id="timer"> 0S</span></h1>
+    </center>
+
+    <div class="wrapper-board">
+      <div id="board"></div>
+      <div id="action-board">
+        <h3>List</h4>
+          <div id="history">
+            
+          </div>
+      </div>
+    </div>
+
+    <div class="box-action">
+      <button class="btn" onclick="resetGame()">New Game</button>
+    </div>
+
+  </body>
+</html>
